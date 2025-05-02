@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a907359e-7ed2-4255-912c-4c82fd2a71b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pumper/src/main/java/Pumper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="a907359e-7ed2-4255-912c-4c82fd2a71b0" name="Changes" comment="OSMB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +94,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/ahmad/OneDrive/Desktop/OSMB/API.jar",
@@ -119,7 +109,7 @@
       <recent name="C:\Users\ahmad\IdeaProjects\osmb-scripts\API" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.osmb-scripts:Pumper [build]">
+  <component name="RunManager" selected="Gradle.osmb-scripts [build]">
     <configuration name="osmb-scripts [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,9 +178,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.osmb-scripts [build]" />
         <item itemvalue="Gradle.osmb-scripts:Pumper [build]" />
         <item itemvalue="Gradle.osmb-scripts:Pumper [buildDependents]" />
-        <item itemvalue="Gradle.osmb-scripts [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +193,19 @@
       <option name="presentableId" value="Default" />
       <updated>1746095553121</updated>
     </task>
+    <task id="LOCAL-00001" summary="OSMB">
+      <option name="closed" value="true" />
+      <created>1746219689658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746219689659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OSMB" />
+    <option name="LAST_COMMIT_MESSAGE" value="OSMB" />
   </component>
 </project>
