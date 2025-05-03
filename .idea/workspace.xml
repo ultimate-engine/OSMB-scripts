@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a907359e-7ed2-4255-912c-4c82fd2a71b0" name="Changes" comment="OSMB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pumper/jar/pumper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Pumper/jar/pumper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pumper/src/main/java/Pumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pumper/src/main/java/Pumper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746219689659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OSMB">
+      <option name="closed" value="true" />
+      <created>1746220294566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746220294566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
