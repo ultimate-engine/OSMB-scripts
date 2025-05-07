@@ -6,11 +6,10 @@ import com.osmb.api.script.SkillCategory;
 import com.osmb.api.shape.Polygon;
 import com.osmb.api.utils.RandomUtils;
 import com.osmb.api.utils.timing.Timer;
-
 @ScriptDefinition(
         name        = "Pumper",
         author      = "Ultimate",
-        version     = 1.1,
+        version     = 1.2,
         description = "Blast Furnace pump operator",
         skillCategory = SkillCategory.COMBAT)
 public class Pumper extends Script {
@@ -44,7 +43,7 @@ public class Pumper extends Script {
             idleTimer.reset();
             idleTimeout = random(ANIM_MIN, ANIM_MAX);
 
-            submitTask(() -> false, RandomUtils.uniformRandom(CLICK_IDLE_MIN, CLICK_IDLE_MAX), false, true, true); // ignoreTasks = true
+            submitHumanTask(() -> false, RandomUtils.uniformRandom(CLICK_IDLE_MIN, CLICK_IDLE_MAX), false, true); // ignoreTasks = true
         }
         return 0;
     }
@@ -63,7 +62,7 @@ public class Pumper extends Script {
                 return false;
             }
             return idleTimer.timeElapsed() > idleTimeout;
-        }, Integer.MAX_VALUE, true, false, true);
+        }, Integer.MAX_VALUE, true, true);
     }
 
     @Override
