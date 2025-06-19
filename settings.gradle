@@ -1,4 +1,0 @@
-rootProject.name = 'osmb-scripts'
-include 'testScript'
-include 'Pumper'
-
