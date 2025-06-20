@@ -37,13 +37,12 @@ public class Pumper extends Script {
         if (!isAnimationIdle()) {
             return 0;
         }
-
         RSObject pump = getObjectManager().getClosestObject("Pump");
         if (pump != null && pump.isInteractableOnScreen() && pump.interact("Operate")) {
             idleTimer.reset();
             idleTimeout = random(ANIM_MIN, ANIM_MAX);
 
-            submitHumanTask(() -> false, RandomUtils.uniformRandom(CLICK_IDLE_MIN, CLICK_IDLE_MAX), false, true); // ignoreTasks = true
+            submitHumanTask(() -> false, RandomUtils.uniformRandom(CLICK_IDLE_MIN, CLICK_IDLE_MAX));
         }
         return 0;
     }
@@ -62,7 +61,7 @@ public class Pumper extends Script {
                 return false;
             }
             return idleTimer.timeElapsed() > idleTimeout;
-        }, Integer.MAX_VALUE, true, true);
+        }, Integer.MAX_VALUE);
     }
 
     @Override
